@@ -1,0 +1,41 @@
+[0.604s] Invoking command in '/home/krristudent/HITL/ros2_sensor/src/lidar_distance': PYTHONPATH=/home/krristudent/HITL/ros2_sensor/build/lidar_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_distance build --build-base /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build install --record /home/krristudent/HITL/ros2_sensor/build/lidar_distance/install.log --single-version-externally-managed install_data
+[0.844s] running egg_info
+[0.844s] creating ../../build/lidar_distance/lidar_distance.egg-info
+[0.844s] writing ../../build/lidar_distance/lidar_distance.egg-info/PKG-INFO
+[0.845s] writing dependency_links to ../../build/lidar_distance/lidar_distance.egg-info/dependency_links.txt
+[0.845s] writing entry points to ../../build/lidar_distance/lidar_distance.egg-info/entry_points.txt
+[0.845s] writing requirements to ../../build/lidar_distance/lidar_distance.egg-info/requires.txt
+[0.845s] writing top-level names to ../../build/lidar_distance/lidar_distance.egg-info/top_level.txt
+[0.845s] writing manifest file '../../build/lidar_distance/lidar_distance.egg-info/SOURCES.txt'
+[0.846s] reading manifest file '../../build/lidar_distance/lidar_distance.egg-info/SOURCES.txt'
+[0.847s] writing manifest file '../../build/lidar_distance/lidar_distance.egg-info/SOURCES.txt'
+[0.848s] running build
+[0.848s] running build_py
+[0.848s] creating /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build
+[0.848s] creating /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib
+[0.848s] creating /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance
+[0.848s] copying lidar_distance/left_lidar_distance.py -> /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance
+[0.848s] copying lidar_distance/__init__.py -> /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance
+[0.848s] copying lidar_distance/right_lidar_distance.py -> /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance
+[0.848s] running install
+[0.848s] running install_lib
+[0.849s] creating /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance
+[0.849s] copying /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance/left_lidar_distance.py -> /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance
+[0.849s] copying /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance/__init__.py -> /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance
+[0.849s] copying /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance/right_lidar_distance.py -> /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance
+[0.850s] byte-compiling /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance/left_lidar_distance.py to left_lidar_distance.cpython-310.pyc
+[0.850s] byte-compiling /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance/__init__.py to __init__.cpython-310.pyc
+[0.850s] byte-compiling /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance/right_lidar_distance.py to right_lidar_distance.cpython-310.pyc
+[0.850s] running install_data
+[0.851s] creating /home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/ament_index
+[0.851s] creating /home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/ament_index/resource_index
+[0.851s] creating /home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/ament_index/resource_index/packages
+[0.851s] copying resource/lidar_distance -> /home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/ament_index/resource_index/packages
+[0.851s] copying package.xml -> /home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance
+[0.851s] running install_egg_info
+[0.852s] Copying ../../build/lidar_distance/lidar_distance.egg-info to /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance-0.0.0-py3.10.egg-info
+[0.853s] running install_scripts
+[0.870s] Installing left_lidar script to /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/lidar_distance
+[0.871s] Installing right_lidar script to /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/lidar_distance
+[0.871s] writing list of installed files to '/home/krristudent/HITL/ros2_sensor/build/lidar_distance/install.log'
+[0.889s] Invoked command in '/home/krristudent/HITL/ros2_sensor/src/lidar_distance' returned '0': PYTHONPATH=/home/krristudent/HITL/ros2_sensor/build/lidar_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_distance build --build-base /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build install --record /home/krristudent/HITL/ros2_sensor/build/lidar_distance/install.log --single-version-externally-managed install_data

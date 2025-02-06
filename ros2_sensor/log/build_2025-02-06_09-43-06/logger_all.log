@@ -1,0 +1,129 @@
+[0.109s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'lidar_distance']
+[0.109s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['lidar_distance'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77562d60b760>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77562d7ac820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77562d7ac820>>, mixin_verb=('build',))
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.293s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/krristudent/HITL/ros2_sensor'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_distance) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_distance) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_distance) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_distance) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_distance) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_distance) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_distance) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_distance) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_distance) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_distance' with type 'ros.ament_python' and name 'lidar_distance'
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.337s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/krristudent/HITL/ros2_sensor/install
+[0.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/krristudent/ros2_drone_sensor/install
+[0.341s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/krristudent/gz-harmonic_ws/install
+[0.342s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 310 installed packages in /opt/ros/humble
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'lidar_distance' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'lidar_distance' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'lidar_distance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'lidar_distance' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'lidar_distance' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'lidar_distance' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'lidar_distance' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'lidar_distance' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'lidar_distance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_distance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/krristudent/HITL/ros2_sensor/build/lidar_distance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/krristudent/HITL/ros2_sensor/install/lidar_distance', 'merge_install': False, 'path': '/home/krristudent/HITL/ros2_sensor/src/lidar_distance', 'symlink_install': False, 'test_result_base': None}
+[0.386s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.387s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.388s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/krristudent/HITL/ros2_sensor/src/lidar_distance' with build type 'ament_python'
+[0.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_distance', 'ament_prefix_path')
+[0.390s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance/hook/ament_prefix_path.ps1'
+[0.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance/hook/ament_prefix_path.dsv'
+[0.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance/hook/ament_prefix_path.sh'
+[0.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.659s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/krristudent/HITL/ros2_sensor/src/lidar_distance'
+[0.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.659s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/krristudent/HITL/ros2_sensor/src/lidar_distance': PYTHONPATH=/home/krristudent/HITL/ros2_sensor/build/lidar_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_distance build --build-base /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build install --record /home/krristudent/HITL/ros2_sensor/build/lidar_distance/install.log --single-version-externally-managed install_data
+[1.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/krristudent/HITL/ros2_sensor/src/lidar_distance' returned '0': PYTHONPATH=/home/krristudent/HITL/ros2_sensor/build/lidar_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_distance build --build-base /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build install --record /home/krristudent/HITL/ros2_sensor/build/lidar_distance/install.log --single-version-externally-managed install_data
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/krristudent/HITL/ros2_sensor/install/lidar_distance' for CMake module files
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/krristudent/HITL/ros2_sensor/install/lidar_distance' for CMake config files
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/bin'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/pkgconfig/lidar_distance.pc'
+[1.313s] Level 1:colcon.colcon_core.environment:checking '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages'
+[1.313s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_distance', 'pythonpath')
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance/hook/pythonpath.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance/hook/pythonpath.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance/hook/pythonpath.sh'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/bin'
+[1.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_distance)
+[1.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance/package.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance/package.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance/package.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance/package.bash'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance/package.zsh'
+[1.319s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/colcon-core/packages/lidar_distance)
+[1.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.319s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.320s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.329s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.338s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.338s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krristudent/HITL/ros2_sensor/install/local_setup.ps1'
+[1.339s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/krristudent/HITL/ros2_sensor/install/_local_setup_util_ps1.py'
+[1.341s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krristudent/HITL/ros2_sensor/install/setup.ps1'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krristudent/HITL/ros2_sensor/install/local_setup.sh'
+[1.343s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/krristudent/HITL/ros2_sensor/install/_local_setup_util_sh.py'
+[1.343s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krristudent/HITL/ros2_sensor/install/setup.sh'
+[1.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krristudent/HITL/ros2_sensor/install/local_setup.bash'
+[1.345s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krristudent/HITL/ros2_sensor/install/setup.bash'
+[1.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/krristudent/HITL/ros2_sensor/install/local_setup.zsh'
+[1.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/krristudent/HITL/ros2_sensor/install/setup.zsh'

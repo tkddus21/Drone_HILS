@@ -1,0 +1,4 @@
+[console_scripts]
+left_lidar = lidar_distance.left_lidar_distance:main
+right_lidar = lidar_distance.right_lidar_distance:main
+

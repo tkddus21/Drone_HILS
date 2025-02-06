@@ -1,0 +1,23 @@
+[0.622s] Invoking command in '/home/krristudent/HITL/ros2_sensor/src/lidar_distance': PYTHONPATH=/home/krristudent/HITL/ros2_sensor/build/lidar_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_distance build --build-base /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build install --record /home/krristudent/HITL/ros2_sensor/build/lidar_distance/install.log --single-version-externally-managed install_data
+[0.870s] running egg_info
+[0.871s] writing ../../build/lidar_distance/lidar_distance.egg-info/PKG-INFO
+[0.871s] writing dependency_links to ../../build/lidar_distance/lidar_distance.egg-info/dependency_links.txt
+[0.871s] writing entry points to ../../build/lidar_distance/lidar_distance.egg-info/entry_points.txt
+[0.871s] writing requirements to ../../build/lidar_distance/lidar_distance.egg-info/requires.txt
+[0.872s] writing top-level names to ../../build/lidar_distance/lidar_distance.egg-info/top_level.txt
+[0.874s] reading manifest file '../../build/lidar_distance/lidar_distance.egg-info/SOURCES.txt'
+[0.875s] writing manifest file '../../build/lidar_distance/lidar_distance.egg-info/SOURCES.txt'
+[0.875s] running build
+[0.875s] running build_py
+[0.876s] running install
+[0.876s] running install_lib
+[0.878s] running install_data
+[0.878s] copying package.xml -> /home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance
+[0.878s] running install_egg_info
+[0.880s] removing '/home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance-0.0.0-py3.10.egg-info' (and everything under it)
+[0.881s] Copying ../../build/lidar_distance/lidar_distance.egg-info to /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance-0.0.0-py3.10.egg-info
+[0.881s] running install_scripts
+[0.901s] Installing left_lidar script to /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/lidar_distance
+[0.901s] Installing right_lidar script to /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/lidar_distance
+[0.901s] writing list of installed files to '/home/krristudent/HITL/ros2_sensor/build/lidar_distance/install.log'
+[0.921s] Invoked command in '/home/krristudent/HITL/ros2_sensor/src/lidar_distance' returned '0': PYTHONPATH=/home/krristudent/HITL/ros2_sensor/build/lidar_distance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_distance build --build-base /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build install --record /home/krristudent/HITL/ros2_sensor/build/lidar_distance/install.log --single-version-externally-managed install_data

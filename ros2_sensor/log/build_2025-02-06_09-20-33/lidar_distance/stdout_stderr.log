@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/lidar_distance/lidar_distance.egg-info
+writing ../../build/lidar_distance/lidar_distance.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_distance/lidar_distance.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_distance/lidar_distance.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_distance/lidar_distance.egg-info/requires.txt
+writing top-level names to ../../build/lidar_distance/lidar_distance.egg-info/top_level.txt
+writing manifest file '../../build/lidar_distance/lidar_distance.egg-info/SOURCES.txt'
+reading manifest file '../../build/lidar_distance/lidar_distance.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_distance/lidar_distance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build
+creating /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib
+creating /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance
+copying lidar_distance/left_lidar_distance.py -> /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance
+copying lidar_distance/__init__.py -> /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance
+copying lidar_distance/right_lidar_distance.py -> /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance
+running install
+running install_lib
+creating /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance
+copying /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance/left_lidar_distance.py -> /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance
+copying /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance/__init__.py -> /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance
+copying /home/krristudent/HITL/ros2_sensor/build/lidar_distance/build/lib/lidar_distance/right_lidar_distance.py -> /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance
+byte-compiling /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance/left_lidar_distance.py to left_lidar_distance.cpython-310.pyc
+byte-compiling /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance/right_lidar_distance.py to right_lidar_distance.cpython-310.pyc
+running install_data
+creating /home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/ament_index
+creating /home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/ament_index/resource_index
+creating /home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/ament_index/resource_index/packages
+copying resource/lidar_distance -> /home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/ament_index/resource_index/packages
+copying package.xml -> /home/krristudent/HITL/ros2_sensor/install/lidar_distance/share/lidar_distance
+running install_egg_info
+Copying ../../build/lidar_distance/lidar_distance.egg-info to /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/python3.10/site-packages/lidar_distance-0.0.0-py3.10.egg-info
+running install_scripts
+Installing left_lidar script to /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/lidar_distance
+Installing right_lidar script to /home/krristudent/HITL/ros2_sensor/install/lidar_distance/lib/lidar_distance
+writing list of installed files to '/home/krristudent/HITL/ros2_sensor/build/lidar_distance/install.log'

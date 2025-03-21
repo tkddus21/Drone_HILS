@@ -94,7 +94,7 @@ public:
         ss << CLEAR_SCREEN;
         
         // 상단 테두리
-        ss << "┌" << std::string(78, '─') << "┐\n";
+        ss << "+" << std::string(78, '-') << "+\n";
         
         // 제목
         ss << "│" << CYAN << BOLD << std::string(30, ' ') << "드론 상태 모니터링" 
@@ -575,6 +575,11 @@ private:
     }
 
     void publishTrajectorySetpoint() {
+        // 변수 선언 추가
+        double x_correction = 0.0;
+        double y_correction = 0.0;
+        double z_correction = 0.0;
+        
         auto setpoint = px4_msgs::msg::TrajectorySetpoint();
         setpoint.timestamp = this->get_clock()->now().nanoseconds() / 1000;
         
@@ -596,9 +601,9 @@ private:
             float current_target_z = waypoints_[current_waypoint_index_].z;  // Z 값은 웨이포인트 값 유지
             
             // PID 보정값 계산 (slow_pid_ 사용)
-            double x_correction = slow_pid_x_->compute(current_target_x, current_position_x_);
-            double y_correction = slow_pid_y_->compute(current_target_y, current_position_y_);
-            double z_correction = slow_pid_z_->compute(current_target_z, current_position_z_);
+            x_correction = slow_pid_x_->compute(current_target_x, current_position_x_);
+            y_correction = slow_pid_y_->compute(current_target_y, current_position_y_);
+            z_correction = slow_pid_z_->compute(current_target_z, current_position_z_);
             
             // 보정된 위치 설정
             setpoint.position = {
@@ -671,8 +676,6 @@ private:
             }
 
             // PID 보정값 계산
-            double x_correction, y_correction, z_correction;
-            
             if (use_slow_pid_) {
                 // 저속 PID 사용 (필요한 경우)
                 x_correction = slow_pid_x_->compute(target_x, current_position_x_);
@@ -812,8 +815,8 @@ private:
                 // WP에서 대기 완료 후 항상 WP-1(벽 접근 지점)으로 이동하도록 수정
                 // 이전: 라이다 유효성 및 wall_distance > 1.5 조건을 검사하여 조건부로 이동
                 // 수정: 조건 없이 항상 벽 접근 지점으로 이동하도록 변경
-                RCLCPP_INFO(this->get_logger(), "웨이포인트 %zu에서 대기 완료. 벽 접근 지점(WP%zu-1)으로 이동합니다.", 
-                           current_waypoint_index_ + 1, current_waypoint_index_ + 1);
+                RCLCPP_INFO(this->get_logger(), "웨이포인트 %zu에서 %.1f초 대기 완료. 다음으로 이동합니다.",
+                           current_waypoint_index_ + 1, waypoint_wait_time_);
                 
                 // 현재 라이다 데이터가 유효하지 않더라도, 기본값 (기본 거리 3m)을 사용하여 벽 접근 지점 계산
                 float wall_distance = 3.0;  // 기본 거리 값 (라이다 유효하지 않을 때 사용)

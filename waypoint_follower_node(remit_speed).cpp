@@ -566,7 +566,7 @@ private:
     void publishOffboardControlMode() {
         px4_msgs::msg::OffboardControlMode msg{};
         msg.position = true;
-        msg.velocity = false;
+        msg.velocity = true;
         msg.acceleration = false;
         msg.attitude = false;
         msg.body_rate = false;

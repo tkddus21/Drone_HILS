@@ -1,3 +1,4 @@
+//2025_03_21작성한 코드입니다.
 #include <rclcpp/rclcpp.hpp>
 #include <px4_msgs/msg/vehicle_command.hpp>
 #include <px4_msgs/msg/trajectory_setpoint.hpp>
